@@ -47,8 +47,8 @@ const marksheet = () => {
    document.getElementById('start').style.display = 'block';
    document.getElementById('tbl').style.display = 'none';
 };
-const print = () => {
-  window.print();
+   function PrintDiv() {
+       window.print();
 };
 
 

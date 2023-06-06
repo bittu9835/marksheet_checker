@@ -84,8 +84,20 @@ tr:hover {
     display: none;
  }
  .exit img {
-     float: right;
-     cursor: pointer;
-     margin: 0px 5px 0px 0px;
+  cursor: pointer;
  }
+ .icon{
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: right;
+  gap: 10px;
+ }
+ 
+ @media screen and (max-width: 600px) {
+  .icon{
+    justify-content: center;
+  }
+ }
+
  
